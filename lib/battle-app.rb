@@ -12,7 +12,7 @@ get '/secret' do
 end
 
 get '/random-cat' do
-  @color = red
+  @color = "red"
   @name = ["Amigo", "Oscar", "Viking"].sample
   erb(:index)
 end
